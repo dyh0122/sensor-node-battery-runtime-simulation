@@ -35,7 +35,7 @@ Codex_Project_in_BMS_paper/
 │   └── PART4_REPORT.md             历史调度报告，顶部有失效提示
 └── outputs/
     ├── README.md                   每个输出文件的状态说明
-    ├── figures/                    17 张已审核 PNG
+    ├── figures/                    17 张已审核 PNG 与逐图说明 README
     ├── reviewed_predictor_metrics.csv
     ├── reviewed_scheduling_summary.csv
     └── *.csv                       其他初始或历史仿真输出
@@ -86,6 +86,8 @@ python -m venv .venv
 预期为 **17**。
 
 ## 4. 如何阅读图表和表格
+
+完整逐图说明见 [outputs/figures/README.md](outputs/figures/README.md)。
 
 | 图号 | 内容 | 阅读要点 |
 | --- | --- | --- |
